@@ -1,0 +1,58 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+main{
+  padding-top: 200px;
+}
+.input-nav {
+  width: 500px;
+}
+
+.primer-section {
+  float: left;
+}
+
+.primer-section > img {
+  margin: 0 30px;
+}
+
+.segunda-section{
+  float: right;
+}
+
+.segunda-section > img {
+  margin: 0 30px;
+}
+.clear{
+  clear: left;
+  text-align: center;
+}
+
+.clear > ol {
+  list-style: none;
+}
+
+.categorias{
+  display: inline-block;
+  background: blue;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 10%;
+  margin: 10 2px;
+}
+
+
+main >section {
+  display: inline-block;
+  background: red;
+  width: 250px;
+  margin: 10 0px;
+}
